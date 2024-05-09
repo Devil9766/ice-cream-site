@@ -1,0 +1,44 @@
+#home{
+  grid-area: main;
+  margin: 50px ;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to right , #ffde59, #ff914d);
+  border-radius: 30px;
+}
+.homeInfo{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.text1{
+  width: fit-content;
+  border-radius: 100px;
+  padding: 5px  15px;
+  text-align: center;
+  background-color: #b3aaff;
+  font-size: large;
+  color: black;
+}
+.text2{
+  font-size: xx-large;
+  font-weight: bold;
+  width: 80%;
+  padding: 5px
+}
+.text3{
+  font-size: large;
+  padding: 5px;
+  width: 80%;
+}
+
+.homeImage , img{
+  height: 550px;
+  border-radius: 50%;
+}
