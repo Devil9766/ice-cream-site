@@ -1,6 +1,6 @@
 #flavours{
   grid-area: main;
-  background: linear-gradient(to right , #ffde59, #ff914d);
+  background: linear-gradient(to right , #8af956cb, #f18316c8);
   border-radius: 30px;
   margin: 50px ;
   padding: 20px;
@@ -10,6 +10,9 @@
   gap: 20px;
 
 }
+h1{
+  font-size: 40px;
+}
 
 .flavourContainer{
   display: flex;
@@ -17,6 +20,12 @@
   align-items: center;
   gap: 20px;
   padding: 20px;
+
+}
+.buttonOption{
+  display: flex;
+  gap: 70px;
+  padding: 10px;
 }
 .flavourImage{
   height: 200px;
@@ -24,10 +33,11 @@
 .flavourChoices{
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(3 , 30%);
+  grid-template-columns: repeat(3 , 32%);
   grid-template-rows: auto;
   font-size: large;
   gap :30px;
+  
 }
 .flavourItems{
   
@@ -35,8 +45,10 @@
     flex-flow: row wrap;
     justify-items: center;
     flex: 1;
-    border: 5px double white ;
-    box-shadow: 5px 5px white , -5px -5px white ;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: white;
+    
 }
 .itemList{
   width: fit-content;
@@ -48,6 +60,7 @@
   padding: 10px;
 }
 .flavourInfo{
+  border-top: 1px solid black;;
   padding: 10px;
   display: flex;
   flex-direction: column;
