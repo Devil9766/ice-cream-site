@@ -15,6 +15,7 @@ h1{
 }
 
 .flavourContainer{
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,9 +28,7 @@ h1{
   gap: 70px;
   padding: 10px;
 }
-.flavourImage{
-  height: 200px;
-}
+
 .flavourChoices{
   padding: 20px;
   display: grid;
@@ -40,15 +39,12 @@ h1{
   
 }
 .flavourItems{
-  
+
     display: flex;
     flex-flow: row wrap;
     justify-items: center;
     flex: 1;
-    border: 1px solid black ;
-    border-radius: 10px;
-    background-color: white;
-    
+  
 }
 .itemList{
   width: fit-content;
@@ -59,10 +55,76 @@ h1{
   gap: 20px;
   padding: 10px;
 }
-.flavourInfo{
-  border-top: 1px solid black;;
-  padding: 10px;
+
+
+.main {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+
+  min-width:  300px;
+  max-width: 300px;
+  min-height:450px ;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  color: rgb(240, 240, 240);
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+ 
+  img {
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+   
+    opacity: 0.9;
+    transition: opacity .2s ease-out;
+  }
+
+  h2 {
+    position: absolute;
+    inset: auto auto 30px 30px;
+    margin: 0;
+    transition: inset .3s .3s ease-out;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  p {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    transition: opacity .3s ease-out;
+  }
+  
+  p {
+    inset: auto auto 80px 30px;
+  }
+  
+  
+  
+  &:hover h2 {
+    inset: auto auto 220px 30px;
+    transition: inset .3s ease-out;
+  }
+  
+  &:hover p{
+    opacity: 1;
+    transition: opacity .5s .1s ease-in;
+  }
+  
+  &:hover img {
+    transition: opacity .3s ease-in;
+    opacity: 1;
+  }
+
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
 }

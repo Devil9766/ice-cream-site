@@ -15,7 +15,7 @@ export default function Flavours(props){
   function iceContainer(item){
     return(
      <div className="flavourItems">
-       <div className="itemList">
+       {/* <div className="itemList">
          <img className="flavourImage" src="/images/demo.jpg" alt="ice cream flavours" />
          <div className="flavourInfo">
            <p>Name : {item.name}</p>
@@ -23,21 +23,52 @@ export default function Flavours(props){
            <p>Rate per 1kg : {item.price1kg} </p>
            <p>Info : {item.info}</p>
          </div>
-       </div>
+       </div> */}
+       <div className="main">
+          <div class = "card">
+            <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="image" />
+            <div class="card-content">
+              <h2>
+                {item.name}
+              </h2>
+              <p>
+                100gm : {item.price100GM}/-
+                <br />
+                1kg : {item.price1kg}/-
+                <br />
+                {item.info}
+              </p>
+            </div>
+          </div>
+        </div>
      </div>
-   )
-   }
+   )}
    function kulContainer(item){
      return(
        <div className="flavourItems">
-         <div className="itemList">
+         {/* <div className="itemList">
            <img className="flavourImage" src="/images/demo.jpg" alt="ice cream flavours" />
            <div className="flavourInfo">
              <p>Name : {item.name}</p>
              <p>Rate: {item.price} </p>
              <p>Info : {item.info}</p>
            </div>
-         </div>
+         </div> */}
+         <div className="main">
+          <div class = "card">
+            <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="image" />
+            <div class="card-content">
+              <h2>
+                {item.name}
+              </h2>
+              <p>
+                Qt-1 : {item.price}/-
+                <br />
+                {item.info}
+              </p>
+            </div>
+          </div>
+        </div>
        </div>
      )
      }

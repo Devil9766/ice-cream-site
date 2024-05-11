@@ -13,7 +13,7 @@ function Anchor(props){
           <Button variant="text"><a href = "/locations">Locations</a></Button>
           <Button variant="text"><a href = "/about">About</a></Button>
         </div>
-        <Button variant="contained" color="success">
+        <Button variant="contained" color="secondary">
           <a className="contactName" href = "/contact"> Contact Us  <FaArrowRightLong /></a>
         </Button>
       </div>
