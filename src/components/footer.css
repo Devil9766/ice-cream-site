@@ -1,0 +1,79 @@
+footer{
+ background-image: url("/images/footerImage.jpg");
+ background-position-x: 150px;
+ background-position-y: 450px;
+ background-size: auto;
+
+}
+
+
+.footerContainer{
+  background-color: #1d1a1adb;
+  opacity: 80;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px; 
+  flex: 1
+  
+  ;
+}
+hr{
+ border-top: 2px solid rgb(72, 240, 184);
+}
+h2{
+  font-size: large;
+}
+.anchorLinks a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: small;
+}
+li{
+  list-style-type: none;
+}
+.anchorLinks{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+  flex-basis: auto;
+}
+.largeName{
+  font-size: larger;
+}
+.businessInfo{
+  align-self: flex-start;
+}
+.mainLinks{
+  padding: 10px;
+  border-left: 2px solid white;
+  border-left-color: rgb(72, 240, 184);
+}
+.businessInfo{
+  padding: 10px;
+  border-left: 2px white solid;
+  border-left-color: rgb(72, 240, 184);
+
+}
+.socialsContainer{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.line-1 , .line-2{
+  align-self: center;
+ height: 1px;
+ width: 30%;
+ background-color: rgb(72, 240, 184);
+}
+
+.endFooter{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: medium;
+}
