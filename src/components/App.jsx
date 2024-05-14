@@ -6,11 +6,16 @@ import Flavours from './flavours'
 import Footer from './footer'
 
 function App() {
+
+  function getKey(key){
+    console.log(key)
+  }
   return(
     <>
     <Header/>
     <Home />
-    <Flavours />
+    <Flavours 
+    giveKey ={getKey}/>
     <Footer/>
     </>
   )

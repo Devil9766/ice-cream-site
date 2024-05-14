@@ -11,7 +11,7 @@ export default function Home(){
         <p className="text3">Indulge in moments of bliss with our delectable range of ice creams! From classic flavors to innovative delights, we have something to satisfy every craving. Dive into a world of creamy goodness and treat yourself to a scoop of happiness today! </p>
       </div>
       <div className="homeImage">
-        <img src="/images/homeImage.png" alt="" />
+        <img src="/images/homeImage1.png" alt="" />
       </div>
     </div>
   )

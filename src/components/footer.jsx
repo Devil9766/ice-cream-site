@@ -23,7 +23,6 @@ export default function Footer(props){
       <div className="footerContainer">
         <hr />
         <div className="anchorLinks">
-          <h2 className="largeName"><SiThunderbird /> Vrindavan Kulfi Ice-Cream</h2>
           <div className="mainLinks">
             <h2>Main Links</h2>
             <ul className="links">
@@ -32,6 +31,7 @@ export default function Footer(props){
               <li><a href="#locations">Locations</a></li>
             </ul>
           </div>
+          <h2 className="largeName"><SiThunderbird/> वृंदावन कुल्फी आइसक्रीम</h2>
           <div className="businessInfo">
             <h2>Other Links</h2>
             <ul className="links">

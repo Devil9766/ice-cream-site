@@ -9,6 +9,7 @@
   gap: 10px;
   background: linear-gradient(to right , #8af956cb, #f18316c8);
   border-radius: 30px;
+  opacity: 95%;
 }
 .homeInfo{
   padding: 10px;
@@ -38,7 +39,10 @@
   width: 80%;
 }
 
-.homeImage , img{
-  height: 550px;
+.homeImage > img{
+  max-height: 500px;
+  border-radius: 50px;
+  flex: 1;
+
 
 }

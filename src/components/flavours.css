@@ -29,6 +29,12 @@ h1{
   padding: 10px;
 }
 
+.buttonOption > *{
+  min-width:fit-content;
+  white-space:nowrap;
+  flex: 1;
+}
+
 .flavourChoices{
   padding: 20px;
   display: grid;
@@ -69,6 +75,7 @@ h1{
   min-width:  300px;
   max-width: 300px;
   min-height:450px ;
+  border-radius: 50px;
   overflow: hidden;
   cursor: pointer;
   position: relative;

@@ -12,7 +12,9 @@ export default function Flavours(props){
     setHandle(value)
   }
   
+  props.giveKey()
   function iceContainer(item){
+    props.giveKey(item.id);
     return(
      <div className="flavourItems">
        {/* <div className="itemList">
@@ -25,9 +27,9 @@ export default function Flavours(props){
          </div>
        </div> */}
        <div className="main">
-          <div class = "card">
+          <div className = "card">
             <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="image" />
-            <div class="card-content">
+            <div className="card-content">
               <h2>
                 {item.name}
               </h2>
@@ -44,6 +46,7 @@ export default function Flavours(props){
      </div>
    )}
    function kulContainer(item){
+    props.giveKey(item.id);
      return(
        <div className="flavourItems">
          {/* <div className="itemList">
@@ -55,9 +58,9 @@ export default function Flavours(props){
            </div>
          </div> */}
          <div className="main">
-          <div class = "card">
+          <div className = "card">
             <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="image" />
-            <div class="card-content">
+            <div className="card-content">
               <h2>
                 {item.name}
               </h2>
