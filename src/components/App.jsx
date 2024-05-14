@@ -4,6 +4,7 @@ import Header from './header'
 import Home from './home'
 import Flavours from './flavours'
 import Footer from './footer'
+import AboutUs from './About-Us'
 
 function App() {
 
@@ -15,7 +16,9 @@ function App() {
     <Header/>
     <Home />
     <Flavours 
-    giveKey ={getKey}/>
+      giveKey ={getKey}
+      />
+    <AboutUs />
     <Footer/>
     </>
   )

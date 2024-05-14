@@ -1,0 +1,46 @@
+#about{
+  margin: 50px;
+  padding: 20px;
+  border-radius: 30px;
+  background: linear-gradient(to right , #8af956cb, #f18316c8);
+  opacity: 95%;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  
+  color: white;
+
+}
+.aboutUsInfo{
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  align-items: flex-end;
+
+}
+.aboutUsInfo h1{
+  font-size: 6rem;
+  grid-column: 2 /4;
+  position: absolute;
+  left :500px;
+}
+.aboutUsP{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  font-size:1vw;
+  min-width: fit-content;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 10px;
+}
+.aboutImage1{
+  height: 550px;
+  opacity: 80%;
+}
+.aboutUsDesign1{
+  min-width: 80px;
+  height: 10px;
+  background-color: beige;
+}
