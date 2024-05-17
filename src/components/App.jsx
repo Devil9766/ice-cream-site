@@ -5,6 +5,7 @@ import Home from './home'
 import Flavours from './flavours'
 import Footer from './footer'
 import AboutUs from './About-Us'
+import Location from './Location'
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
     <Flavours 
       giveKey ={getKey}
       />
+    <Location />
     <AboutUs />
+
     <Footer/>
     </>
   )

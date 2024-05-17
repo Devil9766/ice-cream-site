@@ -10,11 +10,11 @@ function Anchor(props){
         <div className="options">
           <Button variant="text"><a href = "#home">Home</a></Button>
           <Button variant="text"><a href = "#flavours">Flavours</a></Button>
-          <Button variant="text"><a href = "/locations">Locations</a></Button>
+          <Button variant="text"><a href = "#locations">Locations</a></Button>
           <Button variant="text"><a href = "#about">About</a></Button>
         </div>
         <Button variant="contained" color="secondary">
-          <a className="contactName" href = "/contact"> Contact Us  <FaArrowRightLong /></a>
+          <a className="contactName" href = "#contact"> Contact Us  <FaArrowRightLong /></a>
         </Button>
       </div>
   </>

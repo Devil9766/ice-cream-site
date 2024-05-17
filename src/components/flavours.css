@@ -39,10 +39,11 @@ h1{
 .flavourChoices{
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(3 , 32%);
+  grid-template-columns: repeat(3 , 30%);
   grid-template-rows: auto;
   font-size: large;
   gap :30px;
+  justify-content: center;
   
 }
 .flavourItems{
@@ -64,12 +65,7 @@ h1{
 }
 
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .card {
 
