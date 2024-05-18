@@ -6,6 +6,7 @@ import Flavours from './flavours'
 import Footer from './footer'
 import AboutUs from './About-Us'
 import Location from './Location'
+import ContactUs from './ContactUs'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
       />
     <Location />
     <AboutUs />
-
+    <ContactUs />
     <Footer/>
     </>
   )
