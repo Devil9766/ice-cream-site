@@ -11,8 +11,8 @@
   opacity: 95%;
 
 }
-h1{
-  font-size: 40px;
+#flavours > h1{
+  font-size: 3rem;
 }
 
 .flavourContainer{

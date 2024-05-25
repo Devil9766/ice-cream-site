@@ -13,6 +13,9 @@
   align-items: center;
   gap: 20px;
 }
+#locations > h1{
+  font-size: 3rem;
+} 
 
 .locationLinksBox{
   

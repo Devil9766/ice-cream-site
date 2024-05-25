@@ -17,7 +17,8 @@
   flex-direction: column;
   gap: 30px;
   justify-content: center;
-  text-align: left;
+  
+  text-align: center;
 }
 .upperBox > h1{
   font-size: 3rem;
@@ -29,10 +30,12 @@
 
 }
 .contactBox2{
+  background-color: rgba(139, 195, 245, 0.788);
  padding: 20px;
  display: flex;
  flex-direction: column;
  gap: 20px;
+ border-radius: 30px;
 }
 .inputBox  {
 display: flex;
@@ -75,4 +78,7 @@ textarea:focus, input:focus{
 }
 .submitBox{
   align-self: flex-end;
+}
+.status{
+  align-self: center;
 }

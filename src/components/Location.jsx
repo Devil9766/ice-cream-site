@@ -30,7 +30,7 @@ export default function Location(props){
 
     return(
       <div id="locations">
-        <h1>Locations</h1>
+        <h1>Locations ?</h1>
         <div className="locationLinksBox">
           {location.map(handleLocation)}
         </div>
