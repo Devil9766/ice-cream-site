@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(to right , #8af956cb, #f18316c8);
+  background: linear-gradient(45deg , #8af956cb, #f18316c8);
   border-radius: 30px;
   opacity: 95%;
 }
