@@ -8,14 +8,12 @@ function Anchor(props){
   return <>
   <div className="nav-bar">
         <div className="options">
-          <Button variant="text"><a href = "#home">Home</a></Button>
-          <Button variant="text"><a href = "#flavours">Flavours</a></Button>
-          <Button variant="text"><a href = "#locations">Locations</a></Button>
-          <Button variant="text"><a href = "#about">About</a></Button>
+          <a href = "#home">Home</a>
+          <a href = "#flavours">Flavours</a>
+          <a href = "#locations">Locations</a>
+          <a href = "#about">About</a>
         </div>
-        <Button variant="contained" color="secondary">
-          <a className="contactName" href = "#contact"> Contact Us  <FaArrowRightLong /></a>
-        </Button>
+          <a href = "#contact"> Contact Us </a>
       </div>
   </>
 }

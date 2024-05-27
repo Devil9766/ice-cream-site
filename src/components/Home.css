@@ -7,9 +7,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(45deg , #8af956cb, #f18316c8);
+  background: #fafaff;
   border-radius: 30px;
-  opacity: 95%;
+  color: #000;
 }
 .homeInfo{
   padding: 10px;
@@ -21,28 +21,29 @@
 .text1{
   width: fit-content;
   border-radius: 100px;
-  padding: 5px  15px;
   text-align: center;
-  background-color: #b3aaff;
-  font-size: large;
+  font-weight: 500;
+  font-size: 40px;
   color: black;
 }
 .text2{
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 24px;
   width: 80%;
   padding: 5px
 }
 .text3{
-  font-size: x-large;
+  font-size: 16px;
   padding: 5px;
   width: 80%;
 }
 
-.homeImage > img{
+.homeImage{
+  background: url("../images/homeImage1.png");
+  aspect-ratio: 1;
   max-height: 500px;
   border-radius: 50px;
+  background-size: 120%;
+  background-position: right;
   flex: 1;
-
-
+  clip-path: circle(79.1% at 15% 49%);
 }

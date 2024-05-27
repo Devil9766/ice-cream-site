@@ -29,5 +29,5 @@ header {
 }
 .web-Image{
   height: 80px;
-  padding: 5px;
+  cursor: pointer;
 }

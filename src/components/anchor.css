@@ -9,22 +9,23 @@
   gap: 20px;
 }
 
-
 a{
   text-decoration: none;
-  color: rgba(170, 33, 143, 0.844);
-
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  transition: all 0.1s ease-in-out;
+  white-space: nowrap;
 }
+
+a:hover{
+  transform: translateY(-2px);
+  text-decoration: underline;
+}
+
 .options{
   padding: 10px;
   display: flex;
   width: 100%;
   justify-content: space-around;
-}
-
-.contactName{
-  padding: 5px;
-  white-space: nowrap;
-  color: white;
-  
 }
